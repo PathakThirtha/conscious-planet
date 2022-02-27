@@ -1,0 +1,148 @@
+body {
+    margin: 0;padding: 0;background-color: #fff;height: 115em;
+}
+.main {
+    display: flex;justify-content: space-between;align-items: center;
+}
+.main-nav {
+    display: flex;height: 10em;
+}
+.main-nav ul {
+    list-style-type: none; display: flex;align-items: center;
+}
+.main-nav ul li {
+    padding: 8px;
+}
+.main-nav ul li a {
+    text-decoration: none;font-size: 21px;color:black;text-transform: capitalize;font-weight: 530;margin:10px;
+}
+.main-nav ul li a:hover {
+    color: rgb(0, 192, 0);
+}
+.join {
+    border: none;background-color: rgb(0, 192, 0); padding: 11px;color: rgb(255, 255, 255);font-size: 19px;border-radius: 5px;
+}
+.join:hover {
+    opacity: 0.8;cursor: pointer;
+}
+.tool {
+    background: url("hand.jpg");background-repeat: no-repeat;background-size:  cover;width: 100%;margin: 0;padding: 0;
+}
+.involved {
+    display: none;
+}
+.main-nav ul li:hover .involved {
+    display: block;position: absolute;
+}
+.involved ul {
+   display: block; background-color: white;margin: 0 0 0 -2.5em ;padding: 0;width: 300px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.involved ul li a {
+    text-align: center; display: block;padding: px 14px;
+}
+.involved ul li a:hover {
+    color: black;
+}
+.involved ul li:hover {
+    background-color: #dddddd;
+}
+.active {
+    background-color: #dddddd;color: rgb(0, 192, 0);
+}
+.media {
+    display: flex;
+}
+.media ul {
+     list-style: none; display: flex;margin: 0 auto;
+}
+.media ul li {
+    padding: 15px;margin: 15px;background-color: #dddddd;border-radius: 5px;
+}
+.media ul li a {
+    text-decoration: none;color: black;font-size: 20px;font-weight: 550;padding: 13px;
+}
+.begin {
+    background-color: rgb(189, 173, 173);margin: 0;padding: 0;height: 4.6em;margin-top: -0.95em;border-top: 1px solid #000;border-bottom: 1px solid black;
+}
+.begin ul {
+    display: flex;justify-content: center;align-items: flex-end;list-style: none;
+}
+.begin ul li {
+    padding: 12px ;margin: 10px;background-color: #dddddd;border-radius: 5px;
+}
+.begin ul li a{
+    text-decoration: none;font-size: 20px;font-weight: 550;padding: 13px;color: black;
+}
+.dry {
+    filter:none; background: url("https://media.istockphoto.com/photos/earth-texture-macro-photography-pattern-background-picture-id1277752567?b=1&k=20&m=1277752567&s=170667a&w=0&h=PpxhCDQWzVInBLL4gMEHXKey_pfVZZFIPbpgOZLLwW8=");height: 490px;width: 100%;background-size: cover;background-repeat: no-repeat;background-position:  center;
+}
+.text {
+    padding: 30px 0 0 20px;text-align: center;color: rgb(255, 255, 255);font-size: 40px;
+}
+.flex {
+    display: flex;justify-content: space-around;align-items: flex-end;
+}
+.inline {
+    color: rgb(255, 255, 255);font-size:20px;text-align: center;filter: contrast(200%);font-size: 23px;
+}
+.round {
+    height: 65px;width: 65px;border: 2px solid white;border-radius: 50%;
+}
+span {
+    font-size: 28px;
+}
+.join1 {
+    width: 15em;text-align: center;color: white;font-size: 25px;background-color: rgb(40, 158, 40);border-radius: 5px;margin: 0 auto;padding: 10px;transition: 0.3s;
+}
+.join1:hover {
+    background-color: rgb(14, 196, 14);
+}
+.cost {
+    display: flex;flex-wrap: wrap;
+}
+.height {
+    height:12em;width: 70%;margin: 0 auto;
+}
+.btn {
+  text-align: center; width: 8em; margin: 0 auto;background-color: white;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border: none;font-size: 25px;font-weight: 500;border-radius: 3px;padding: 10px;
+
+}
+div.gallery {
+    float:left;
+    width: 200px;border:1px solid black;margin: 0 0 0 5.5em;transition: 0.5s;cursor: pointer;
+}
+div.gallery:hover {
+    border: 1px solid rgb(51, 47, 47);  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+.image-text {
+    text-align: center;font-size: 17px;text-decoration: none;color: black;
+}
+
+
+
+.position {
+    list-style-type: none;
+    padding: 0;position: fixed;background-color:rgb(0, 192, 0);border-radius: 30px;width: 60px;
+  }
+  .position li {
+      padding: 5px;
+    
+  }
+  
+ .position li a {
+    display: block;padding: 5px;
+    
+  }
+  .logoss {
+      transition: 0.5s;
+  }
+  .logoss:hover {
+      margin: 0 0 0 0.4em;
+  }
+  
